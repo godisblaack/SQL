@@ -59,3 +59,32 @@
 [29 Cross Joins](029%20Cross%20Joins.md)
 
 [30 Unions](030%20Unions.md)
+
+[31 Column Attributes](031%20Column%20Attributes.md)
+
+[32 Inserting a Row](032%20Inserting%20a%20Row.md)
+
+[33 Inserting Multiple Rows](033%20Inserting%20Multiple%20Rows.md)
+
+[34 Inserting Hierarchical Rows](034%20Inserting%20Hierarchical%20Rows.md)
+
+[35 Creating a Copy of a Table](035%20Creating%20a%20Copy%20of%20a%20Table.md)
+
+[36 Updating a Single Row](036%20Updating%20a%20Single%20Row.md)
+
+[37 Updating Multiple Rows](037%20Updating%20Multiple%20Rows.md)
+
+[38 Using Subqueries in Updates](038%20Using%20Subqueries%20in%20Updates.md)
+
+[39 Deleting Rows](039%20Deleting%20Rows.md)
+
+[40 Restoring the Databases](040%20Restoring%20the%20Databases.md)
+
+[41 Aggregate Functions](041%20Aggregate%20Functions.md)
+
+[42 The GROUP BY Clause](042%20The%20GROUP%20BY%20Clause.md)
+
+[43 The HAVING Clause](043%20The%20HAVING%20Clause.md)
+
+[44 The ROLLUP Operator](044%20The%20ROLLUP%20Operator.md)
+

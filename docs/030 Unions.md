@@ -176,10 +176,10 @@ ORDER BY first_name;
 
 ---
 
- ## Queries form the video
+## 10. Queries form the video
 
- ```sql
- USE sql_store;
+```sql
+USE sql_store;
 
 SELECT 
     *
@@ -248,7 +248,7 @@ FROM
     customers;
 ```
 
-## Exercise
+## 11. Exercise
 
 ```sql
 use sql_store;
@@ -273,3 +273,58 @@ WHERE
     points > 3000
 ORDER BY first_name;
 ```
+
+--- 
+
+# 📘 SQL Joins – Notes
+
+## 🔑 Types of Joins
+- **INNER JOIN**
+  - Returns only rows with matches in both tables.
+  - Default join type if you just write `JOIN`.
+  - Example: students who have exam records.
+
+- **LEFT JOIN (LEFT OUTER JOIN)**
+  - Returns all rows from the left table + matching rows from the right.
+  - Non‑matches on the right → `NULL`.
+  - Example: all students, even those with no exams.
+
+- **RIGHT JOIN (RIGHT OUTER JOIN)**
+  - Returns all rows from the right table + matching rows from the left.
+  - Non‑matches on the left → `NULL`.
+  - Example: all exam records, even if no matching student.
+
+- **FULL OUTER JOIN**
+  - Returns all rows from both tables.
+  - Non‑matches on either side → `NULL`.
+  - Example: complete picture of students + exams.
+
+- **CROSS JOIN**
+  - Returns Cartesian product (all combinations).
+  - Same as writing `JOIN` without an `ON` condition.
+  - Example: every student paired with every subject.
+
+- **SELF JOIN**
+  - A table joined with itself using aliases.
+  - Used for comparisons within the same table.
+  - Example: students who share the same subject.
+
+---
+
+## 📝 Quick Visual Summary
+| Join Type       | Result |
+|-----------------|--------|
+| INNER JOIN      | Only matching rows |
+| LEFT JOIN       | All left + matching right |
+| RIGHT JOIN      | All right + matching left |
+| FULL OUTER JOIN | All rows from both sides |
+| CROSS JOIN      | All possible combinations |
+| SELF JOIN       | Table joined with itself |
+
+---
+
+## 🔎 MySQL Specifics
+- `JOIN` = `INNER JOIN` (default).
+- `JOIN` without `ON` = Cartesian product (like `CROSS JOIN`).
+- `SELF JOIN` is not a keyword — you create it by aliasing the same table twice.
+- MySQL does **not auto‑detect** self joins or cross joins; you must write them explicitly.
