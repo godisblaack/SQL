@@ -88,3 +88,38 @@
 
 [44 The ROLLUP Operator](044%20The%20ROLLUP%20Operator.md)
 
+[45 Introduction](045%20Introduction.md)
+
+[46 Subqueries](046%20Subqueries.md)
+
+[47 The IN Operator](047%20The%20IN%20Operator.md)
+
+[48 Subqueries vs Joins](048%20Subqueries%20vs%20Joins.md)
+
+[49 The ALL Keyword](049%20The%20ALL%20Keyword.md)
+
+[50 The ANY Keyword](050%20The%20ANY%20Keyword.md)
+
+[51 Correlated Subqueries](051%20Correlated%20Subqueries.md)
+
+[52 The EXISTS Operator](052%20The%20EXISTS%20Operator.md)
+
+[53 Subqueries in the SELECT Clause](053%20Subqueries%20in%20the%20SELECT%20Clause.md)
+
+[54 Subqueries in the FROM Clause](054%20Subqueries%20in%20the%20FROM%20Clause.md)
+
+[55 Numeric Functions](055%20Numeric%20Functions.md)
+
+[56 String Functions](056%20String%20Functions.md)
+
+[57 Date Functions in MySQL](057%20Date%20Functions%20in%20MySQL.md)
+
+[58 Formatting Dates and Times](058%20Formatting%20Dates%20and%20Times.md)
+
+[59 Calculating Dates and Times](059%20Calculating%20Dates%20and%20Times.md)
+
+[60 The IFNULL and COALESCE Functions](060%20The%20IFNULL%20and%20COALESCE%20Functions.md)
+
+[61 The IF Function](061%20The%20IF%20Function.md)
+
+[62 The CASE Operator](062%20The%20CASE%20Operator.md)
